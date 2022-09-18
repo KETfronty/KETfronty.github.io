@@ -1,0 +1,28 @@
+*, *::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family:'Poppins';
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+h1,h2{
+    color:$txt;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: $txt;
+}
